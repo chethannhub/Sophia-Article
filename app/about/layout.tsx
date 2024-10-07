@@ -2,16 +2,16 @@ import React from 'react';
 import Link from 'next/link';
 
 import Image from 'next/image';
-// import logo from 'Sophia/public/logo.svg'; 
+import logo from '/app/favicon.svg';
 
 export default function AboutLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="min-h-screen flex flex-col bg-black-900 text-white">
+    <div className="min-h-screen flex flex-col bg-black-900 text-grey">
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-14 items-center">
           <div className="mr-4 hidden md:flex">
             <Link href="/" className="mr-6 flex items-center space-x-2">
-              {/* <Image src={logo} alt="Logo" width={40} height={40} /> */}
+              <Image src={logo} alt="Logo" width={40} height={40} />
               <span className="hidden font-bold sm:inline-block text-xs">Sophia</span>
             </Link>
             <nav className="flex items-center space-x-6 text-xs font-medium">
