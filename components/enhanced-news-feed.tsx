@@ -22,7 +22,7 @@ import { ar } from 'date-fns/locale';
 
 // Add this interface near the top of your file
 
-const url = " http://127.0.0.1:5000";
+const url = "https://sophia-bpe0ehdhaehkabb0.centralindia-01.azurewebsites.net/";
 
 interface Article {
   publishedAt: string | number | Date;
