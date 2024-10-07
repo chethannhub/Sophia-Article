@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 import Image from 'next/image';
-import logo from '/logo.svg'; 
+import logo from 'Sophia/public/logo.svg'; 
 
 export default function AboutLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -29,7 +29,7 @@ export default function AboutLayout({ children }: { children: React.ReactNode })
       <footer className="bg-gray-800 text-white">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-sm">&copy; 2023 AI News Hub. All rights reserved.</p>
+            <p className="text-sm">&copy; 2023 Sophia. All rights reserved.</p>
             <div className="mt-4 md:mt-0 space-x-4">
               <Link href="/terms" className="text-sm hover:underline">Terms of Service</Link>
               <Link href="/privacy" className="text-sm hover:underline">Privacy Policy</Link>
